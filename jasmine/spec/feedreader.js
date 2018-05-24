@@ -32,6 +32,10 @@ $(function() {
          * and that the URL is not empty.
          */
         it("should have a (defined) URL that is not empty", function() {
+            allFeeds.forEach(idx => {
+                expect(idx.url).toBeDefined();
+                expect(idx.url.length).not.toBe(0);
+            });
 
         });
 
@@ -40,8 +44,12 @@ $(function() {
          * and that the name is not empty.
          */
         it("should have a (defined) name that is not empty", function() {
-
+            allFeeds.forEach(idx => {
+                expect(idx.name).toBeDefined();
+                expect(idx.name.length).not.toBe(0);
+            });
         });
+            
     });
 
 
@@ -62,9 +70,7 @@ $(function() {
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-        it("should change visibility when menu icon is clicked", function() {
-
-        });
+        it("should change visibility when menu icon is clicked");
     });
 
         
@@ -79,7 +85,7 @@ $(function() {
          * Remember, loadFeed() is asynchronous so this test will require
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
-        it("contains at least one entry")
+        it("contains at least one entry");
     });
 
 
@@ -89,7 +95,7 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-        it("changes content")
+        it("changes content");
     });
         
 }());
