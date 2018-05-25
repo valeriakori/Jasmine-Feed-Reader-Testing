@@ -10,10 +10,6 @@ In this project I was given a web-based application that reads RSS Feeds. The id
 
 ## How to view the project
 
-#### 1. Way
-Click this link: https://valeriakori.github.io/Jasmine-Feed-Reader-Testing/
-
-#### 2. Way
 Download this repo using  `git clone https://github.com/valeriakori/Jasmine-Feed-Reader-Testing.git`, access the project folder in your CLI  and then run `start index.html`. If the file does not open in your browser you can view it by simply opening index.html in your browser
 
 
